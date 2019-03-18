@@ -78,7 +78,7 @@ bool LCD_Init ( LCD display ) {
     else if ( lcd.PORT == &PORTC ) {
         TRISC = 0x00;
     }
-    #if defined(_18F4550) 
+    #if defined(_18F4550) || defined(_18F45K50)
     else if ( lcd.PORT == &PORTD ) {
         TRISD = 0x00;
     }
