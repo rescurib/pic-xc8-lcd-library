@@ -7,7 +7,7 @@
  * LCD library source file.
  */
  
-#define _XTAL_FREQ 8000000
+#define _XTAL_FREQ 48000000
 
 #include <stdbool.h>
 #include <xc.h>
